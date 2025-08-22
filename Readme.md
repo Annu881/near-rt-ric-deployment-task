@@ -7,13 +7,13 @@
 - AppMgr pod ❌ failed (ImagePullBackOff due to missing image pull secret)
 
 ## Outputs
-- Pods: see `pods.txt` and screenshot `images/pods.png`
-- Services: see `services.txt` and screenshot `images/services.png`
-- Helm list: see `helm_list.txt` and screenshot `images/helm_list.png`
-- AppMgr describe: see `appmgr_describe.txt` and screenshot `images/appmgr_events.png`
+- Pods: see `pods.txt` and screenshot  ![Pods](pods.png)
+- Services: see `services.txt` and screenshot  ![Services](services.png)
+- Helm list: see `helm_list.txt` and screenshot  ![Helm List](helm_list.png)
+- AppMgr describe: see `appmgr_describe.txt` and screenshot  ![AppMgr Events](appmgr_events.png)
 
 ## API Attempts
-- Kong (`/health/ready`, `/xapps`) → HTTP 404 / 503 (see `kong_health.txt`, `kong_xapps.txt`, and screenshot `images/kong_calls.png`)
+- Kong (`/health/ready`, `/xapps`) → HTTP 404 / 503 (see `kong_health.txt`, `kong_xapps.txt`, and screenshot  ![Kong calls](kong_calls.png))
 - Port-forward / in-cluster curl → failed (since AppMgr pod not running)
 
 ## Issue
