@@ -1,0 +1,14 @@
+NAME                                                         READY   STATUS             RESTARTS      AGE
+deployment-ricplt-a1mediator-67f8bcb5f7-qn74s                1/1     Running            0             16h
+deployment-ricplt-alarmmanager-86c79854b5-xld5j              1/1     Running            0             16h
+deployment-ricplt-appmgr-6ffb49bd64-mnc75                    0/1     ImagePullBackOff   0             3h20m
+deployment-ricplt-e2mgr-7c4c5cddd6-jm9kb                     1/1     Running            0             16h
+deployment-ricplt-e2term-alpha-9d966757b-8wqts               1/1     Running            0             16h
+deployment-ricplt-o1mediator-67f4ffb445-ds8r5                1/1     Running            0             16h
+deployment-ricplt-rtmgr-54d89448df-d6wtz                     1/1     Running            7 (16h ago)   16h
+deployment-ricplt-submgr-7d86786bdd-fjknt                    1/1     Running            0             16h
+deployment-ricplt-vespamgr-846d876485-k99nt                  1/1     Running            0             16h
+r4-infrastructure-kong-6874569c56-dr6xc                      2/2     Running            0             16h
+r4-infrastructure-prometheus-alertmanager-59c9f4bf85-cnfpr   2/2     Running            0             16h
+r4-infrastructure-prometheus-server-8df8c44b-rkcgf           1/1     Running            0             16h
+statefulset-ricplt-dbaas-server-0                            1/1     Running            0             16h

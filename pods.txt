@@ -1,0 +1,14 @@
+NAME                                                         READY   STATUS             RESTARTS      AGE    IP            NODE                NOMINATED NODE   READINESS GATES
+deployment-ricplt-a1mediator-67f8bcb5f7-qn74s                1/1     Running            0             16h    10.244.0.14   ric-control-plane   <none>           <none>
+deployment-ricplt-alarmmanager-86c79854b5-xld5j              1/1     Running            0             16h    10.244.0.18   ric-control-plane   <none>           <none>
+deployment-ricplt-appmgr-6ffb49bd64-mnc75                    0/1     ImagePullBackOff   0             167m   10.244.0.21   ric-control-plane   <none>           <none>
+deployment-ricplt-e2mgr-7c4c5cddd6-jm9kb                     1/1     Running            0             16h    10.244.0.12   ric-control-plane   <none>           <none>
+deployment-ricplt-e2term-alpha-9d966757b-8wqts               1/1     Running            0             16h    10.244.0.13   ric-control-plane   <none>           <none>
+deployment-ricplt-o1mediator-67f4ffb445-ds8r5                1/1     Running            0             16h    10.244.0.17   ric-control-plane   <none>           <none>
+deployment-ricplt-rtmgr-54d89448df-d6wtz                     1/1     Running            7 (16h ago)   16h    10.244.0.11   ric-control-plane   <none>           <none>
+deployment-ricplt-submgr-7d86786bdd-fjknt                    1/1     Running            0             16h    10.244.0.15   ric-control-plane   <none>           <none>
+deployment-ricplt-vespamgr-846d876485-k99nt                  1/1     Running            0             16h    10.244.0.16   ric-control-plane   <none>           <none>
+r4-infrastructure-kong-6874569c56-dr6xc                      2/2     Running            0             16h    10.244.0.5    ric-control-plane   <none>           <none>
+r4-infrastructure-prometheus-alertmanager-59c9f4bf85-cnfpr   2/2     Running            0             16h    10.244.0.6    ric-control-plane   <none>           <none>
+r4-infrastructure-prometheus-server-8df8c44b-rkcgf           1/1     Running            0             16h    10.244.0.7    ric-control-plane   <none>           <none>
+statefulset-ricplt-dbaas-server-0                            1/1     Running            0             16h    10.244.0.9    ric-control-plane   <none>           <none>
